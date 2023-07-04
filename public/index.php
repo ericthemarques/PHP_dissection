@@ -1,25 +1,23 @@
 <?php
 
-$people = [
-    "Eric",
-    "Miguel",
-    "Robson",
-    "Lívia",
-];
+// if (true) {
+// echo "é... realmente ";
+// };
 
-#foreach ($people as $people) {
-#echo $people, ", ";
-#};
+$name = "Miguel";
 
-# -----------------------------------------------------------------------------------------
-
-$people_two = [
-    "Yasuo",
-    "Cloud",
-    "Mario",
-    "Link",
-];
-
-foreach ($people as $index => $people) {
-    echo $index . ' - ' . $people, ", ";
+if ($name != "Eric") {
+    echo "é diferente ";
 };
+
+# ---------------------------------------------------------------------------------------
+
+$articles = ["Hello"];
+
+if (empty($articles)) {
+    echo "Its Empty";
+} else {
+    echo "The array is not empty";
+};
+
+# vai printar "The array is not empty";
